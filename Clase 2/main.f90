@@ -52,3 +52,10 @@ subroutine modificarAuto()
     read *
 end subroutine modificarAuto
 
+
+subroutine crearInforme()
+    print *, "Creando informe..."
+    !Código necesario para crear un informe
+    print *, "Presione una tecla para continuar"
+    read *
+end subroutine crearInforme
